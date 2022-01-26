@@ -16,6 +16,7 @@ Steps for model installation.
 - Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB.
 - Copy all filles (TSEB) into the environment folder you just created.
 - Install the TSEB model inside the environment by type "python setup.py install" in anaconda prompt. Be carefull, you need to navigate to that environment folder path.
+- The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail.
 - Finished, and you should be good to run TSEB models.
 
 # Run model
