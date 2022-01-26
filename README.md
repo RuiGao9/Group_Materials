@@ -9,7 +9,7 @@ This repository is prepared for our research group to run the [TSEB](https://git
 Installation varies from person to person. One option you could consider. <br>
 Before the installation, required software are: <br>
 - Anaconda
-- ArcGIS Pro
+- ArcGIS Pro <br>
 Steps for model installation.
 - Create an environment which is the same as the one of ArcGIS Pro: copy the environment from ArcGIS Pro to the "envs" folder of the Anaconda.
 - Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB.
