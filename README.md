@@ -24,4 +24,9 @@ Instead of the details of running the TSEB model, demo data is provided in this 
 - "1_Demo_Data", this folder contains image data for you to try to run the model.
 - "2_Decimal_Data.xlsx", this XLSX file contains decimal observations for you to run the model.
 
+# Inputs for the TSEB-PT model
+The flowchart below is just a big picture showing the structure to gain the inputs for the TSEB-PT model. The process to gain the inputs for TSEB-PT varies from person to person. Hopefully, this flowchart can help you make your own way for the input preparation conveniently.
+![image](https://user-images.githubusercontent.com/51354367/153303524-212734e0-a07b-4169-a4ea-f63a83727422.png)
+
+
 Recommendations, suggestions, and comments are much appreciated to send to Rui at rui.gao@usu.edu.
