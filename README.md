@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/452388873.svg)](https://doi.org/10.5281/zenodo.15871796)
+![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.Group_Materials)<br>
+
 # Group Materials
 Created by January 26th, 2022 <br>
 Last updates by January 26th, 2022 <br>
