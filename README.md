@@ -29,13 +29,16 @@ url: "https://github.com/hectornieto/pyTSEB"
 ```
 
 ## TSEB model installation
-Since much of our research involved working with ArcGIS Pro, we frequently utilized its built-in functions. As a result, we installed and ran the TSEB model within the ArcGIS Pro environment.
-Steps for mosel installation.
-- Create an environment which is the same as the one of ArcGIS Pro: copy the environment from ArcGIS Pro to the "envs" folder of the Anaconda.
+Since much of our research involved working with ArcGIS Pro, we frequently relied on its built-in functions. As a result, we installed and ran the TSEB model within the ArcGIS Pro environment.
+Steps for model installation in the ArcGIS Pro environment.
+1. Create a compatible Python environment.
+Copy the existing ArcGIS Pro Python environment to the `envs` folder of your Anaconda installation. This ensures compatibility with ArcGIS Pro's Python setup.
+
+ArcGIS Pro to the "envs" folder of the Anaconda.
 - Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB or download `pyTSEB-master.zip` from this repository.
 - Copy all filles (TSEB) into the environment folder you just created, or into a folder that you can better organize your folders/files.
-- Install the TSEB model inside the environment by type ```python setup.py install``` in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path.
-- The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail.
+- Install the TSEB model inside the environment by type `python setup.py install` in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path via the terminal.
+- The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail, or download `pypro4sail-master.zip` from this repository.
 - Finished, and you should be good to run TSEB models.
 
 - Considering using ArcGIS Pro;
