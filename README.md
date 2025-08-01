@@ -33,8 +33,8 @@ Since much of our research involved working with ArcGIS Pro, we frequently utili
 Steps for mosel installation.
 - Create an environment which is the same as the one of ArcGIS Pro: copy the environment from ArcGIS Pro to the "envs" folder of the Anaconda.
 - Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB or download `pyTSEB-master.zip` from this repository.
-- Copy all filles (TSEB) into the environment folder you just created.
-- Install the TSEB model inside the environment by type "python setup.py install" in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path.
+- Copy all filles (TSEB) into the environment folder you just created, or into a folder that you can better organize your folders/files.
+- Install the TSEB model inside the environment by type ```python setup.py install``` in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path.
 - The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail.
 - Finished, and you should be good to run TSEB models.
 
