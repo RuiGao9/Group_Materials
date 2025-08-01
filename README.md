@@ -1,7 +1,28 @@
 [![DOI](https://zenodo.org/badge/452388873.svg)](https://doi.org/10.5281/zenodo.15871796)
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.Group_Materials)<br>
 
-# TSEB Model Installation Using the Old Style - TSEB Backup Old style
+# TSEB Model Installation Using an Old Style - Backup
+This is a repository mainly backup the old way to install the TSEB model for our research. This was published as a version at https://github.com/hectornieto/pyTSEB in around 2021.
+```
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nieto"
+  given-names: "Hector"
+  orcid: "https://orcid.org/0000-0003-4250-6424"
+- family-names: "Guzinski"
+  given-names: "Radoslaw"
+  orcid: "https://orcid.org/0000-0003-0044-6806"
+- family-names: "Kustas"
+  given-names: "William P."
+  orcid: "https://orcid.org/0000-0001-5727-4350"
+
+title: "pyTSEB: A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data"
+version: 2.2
+doi: 10.5281/zenodo.594732
+date-released: 2018-03-04
+url: "https://github.com/hectornieto/pyTSEB"
+```
 - Considering using ArcGIS Pro;
 - Considering easier for developing via Python;
 
