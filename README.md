@@ -33,13 +33,27 @@ Since much of our research involved working with ArcGIS Pro, we frequently relie
 Steps for model installation in the ArcGIS Pro environment.
 1. Create a compatible Python environment.
 Copy the existing ArcGIS Pro Python environment to the `envs` folder of your Anaconda installation. This ensures compatibility with ArcGIS Pro's Python setup.
-
-ArcGIS Pro to the "envs" folder of the Anaconda.
-- Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB or download `pyTSEB-master.zip` from this repository.
-- Copy all filles (TSEB) into the environment folder you just created, or into a folder that you can better organize your folders/files.
-- Install the TSEB model inside the environment by type `python setup.py install` in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path via the terminal.
-- The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail, or download `pypro4sail-master.zip` from this repository.
-- Finished, and you should be good to run TSEB models.
+2. Download the TSEB model.
+    - Option 1: download from the official repository: https://github.com/hectornieto/pyTSEB
+    - Option 2: download `pyTSEB-master.zip` from this repository.
+3. Organize the files.
+Extract and copy all TSEB files to either:
+    - The environment folder you just created, or
+    - A project directory where you can better manage your code and data.
+4. Install the TSEB model.
+    - Open the Anaconda Prompt, and activate the environment you just created.
+    - Navigate to the directory containing `setup.py` using `cd`.
+    - Run the following command:
+    ```
+    python setup.py install
+    ```
+    (Note, make sure you're in the correct directory before running the command.)
+5. Install the `pyPro4Sail` dependency.
+Follow a similar process for installing `pyPro4Sail`:
+    - Repository: https://github.com/hectornieto/pyPro4Sail
+    - Or download `pypro4sail-master.zip` from this repository.
+6. Done.
+You should now be ready to run the TSEB model within your ArcGIS Pro-compatible Python environment.
 
 - Considering using ArcGIS Pro;
 - Considering easier for developing via Python;
