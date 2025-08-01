@@ -2,8 +2,8 @@
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.Group_Materials)<br>
 
 # A Backup Way for TSEB Model Installation 
-Subtitle - TSEB-Backup-Old-Style
-This repository serves as a backup of the previous method used to install the TSEB model for our research. It is based on the version available at https://github.com/hectornieto/pyTSEB, as published around 2021.
+Subtitle - TSEB-Backup-Old-Style <br>
+This repository serves as a backup of the previous method used to install the TSEB model for our research. It is based on the version available at https://github.com/hectornieto/pyTSEB, as published around 2021.<br>
 Please consider citing the original work as referenced in the included CITATION.cff file below.
 The original setup included two key folders, which are preserved here:
 - pyTSEB-master.zip
