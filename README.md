@@ -2,8 +2,9 @@
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.Group_Materials)<br>
 
 # TSEB Model Installation Using an Old Style - Backup
-This is a repository mainly backup the old way to install the TSEB model for our research. This was published as a version at https://github.com/hectornieto/pyTSEB in around 2021. Please consider cite the origanl work below (CITATION.cff):
-In the old way, it provided two important folders, and they were kept here:
+This repository serves as a backup of the previous method used to install the TSEB model for our research. It is based on the version available at https://github.com/hectornieto/pyTSEB, as published around 2021.
+Please consider citing the original work as referenced in the included CITATION.cff file below.
+The original setup included two key folders, which are preserved here:
 - pyTSEB-master.zip
 - pypro4sail-master.zip
 ```
@@ -26,6 +27,8 @@ doi: 10.5281/zenodo.594732
 date-released: 2018-03-04
 url: "https://github.com/hectornieto/pyTSEB"
 ```
+
+##
 - Considering using ArcGIS Pro;
 - Considering easier for developing via Python;
 
