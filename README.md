@@ -1,7 +1,8 @@
 [![DOI](https://zenodo.org/badge/452388873.svg)](https://doi.org/10.5281/zenodo.15871796)
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9.Group_Materials)<br>
 
-# TSEB Model Installation Using an Old Style - Backup
+# A Backup Way for TSEB Model Installation 
+## TSEB-Backup-Old-Style
 This repository serves as a backup of the previous method used to install the TSEB model for our research. It is based on the version available at https://github.com/hectornieto/pyTSEB, as published around 2021.
 Please consider citing the original work as referenced in the included CITATION.cff file below.
 The original setup included two key folders, which are preserved here:
@@ -27,6 +28,10 @@ doi: 10.5281/zenodo.594732
 date-released: 2018-03-04
 url: "https://github.com/hectornieto/pyTSEB"
 ```
+
+Before the installation, required software are: <br>
+- Anaconda
+- ArcGIS Pro <br>
 
 ## TSEB model installation
 Since much of our research involved working with ArcGIS Pro, we frequently relied on its built-in functions. As a result, we installed and ran the TSEB model within the ArcGIS Pro environment.
@@ -55,30 +60,6 @@ Follow a similar process for installing `pyPro4Sail`:
 6. Done.
 You should now be ready to run the TSEB model within your ArcGIS Pro-compatible Python environment.
 
-- Considering using ArcGIS Pro;
-- Considering easier for developing via Python;
-
-Created by January 26th, 2022 <br>
-1st update by January 26th, 2022 <br>
-2nd update by August 14th, 2025 <br>
-
-Brief introduction of this repository:<br>
-This repository is prepared for our research group to run the [TSEB](https://github.com/hectornieto/pyTSEB) model after the successful installation.
-
-# Model installation
-Installation varies from person to person. One option you could consider. <br>
-Before the installation, required software are: <br>
-- Anaconda
-- ArcGIS Pro <br>
-
-Steps for model installation.
-- Create an environment which is the same as the one of ArcGIS Pro: copy the environment from ArcGIS Pro to the "envs" folder of the Anaconda.
-- Download the TSEB model from the website: https://github.com/hectornieto/pyTSEB.
-- Copy all filles (TSEB) into the environment folder you just created.
-- Install the TSEB model inside the environment by type "python setup.py install" in anaconda prompt (under the environnment you have just installed). Be carefull, you need to navigate to that environment folder path.
-- The library called "pyPro4Sail" can refer the previous process, and the resource can be found here: https://github.com/hectornieto/pyPro4Sail.
-- Finished, and you should be good to run TSEB models.
-
 # Run model
 Instead of the details of running the TSEB model, demo data is provided in this repository.
 - "1_Demo_Data", this folder contains image data for you to try to run the model.
@@ -88,5 +69,29 @@ Instead of the details of running the TSEB model, demo data is provided in this 
 The flowchart below is just a big picture showing the structure to gain the inputs for the TSEB-PT model. The process to gain the inputs for TSEB-PT varies from person to person. Hopefully, this flowchart can help you make your own way for the input preparation conveniently.
 ![image](https://user-images.githubusercontent.com/51354367/153303524-212734e0-a07b-4169-a4ea-f63a83727422.png)
 
+## Citation
+If you use this reporitory in your work, please cite it using the following DOI:
 
-Recommendations, suggestions, and comments are much appreciated to send to Rui at rui.gao@usu.edu.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15871797.svg)](https://doi.org/10.5281/zenodo.15871797)
+
+BibTeX:
+```bibtex
+@misc{gao2025tseb,
+  author       = {Rui Gao},
+  title        = {A Backup Way for TSEB Model Installation – TSEB-Backup-Old-Style},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15871797},
+  url          = {https://doi.org/10.5281/zenodo.15871797}
+}
+```
+
+## Repository update information:
+Created by January 26th, 2022 <br>
+1st update by August 1st, 2025 <br>
+
+## Contact information if issues were found:
+Rui Gao<br>
+Rui.Ray.Gao@gmail.com<br>
+RuiGao@UCMerced.edu
+Rui.Gao@USU.edu
