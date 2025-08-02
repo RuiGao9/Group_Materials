@@ -93,5 +93,5 @@ Created by January 26th, 2022 <br>
 ## Contact information if issues were found:
 Rui Gao<br>
 Rui.Ray.Gao@gmail.com<br>
-RuiGao@UCMerced.edu
+RuiGao@UCMerced.edu<br>
 Rui.Gao@USU.edu
