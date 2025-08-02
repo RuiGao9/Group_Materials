@@ -60,11 +60,11 @@ Follow a similar process for installing `pyPro4Sail`:
 6. Done.
 You should now be ready to run the TSEB model within your ArcGIS Pro-compatible Python environment.
 
-# Demo for input prepartion for the TSEB-PT model
+## Demo for input prepartion for the TSEB-PT model
 The flowchart below provides an overview of the general structure for preparing inputs for the TSEB-PT model using UAV imagery. The specific process for generating these inputs may vary depending on individual preferences and workflows. Hopefully, this flowchart serves as a helpful guide to support you in developing your own approach to input preparation.
 ![image](https://user-images.githubusercontent.com/51354367/153303524-212734e0-a07b-4169-a4ea-f63a83727422.png)
 
-# Run model
+## Run model
 Rather than focusing on the detailed steps for running the TSEB model, this repository provides demo data to help you get started:
 - "1_Demo_Data": This folder contains image data you can use to test and run the model.
 - "2_Decimal_Data.xlsx": This Excel file includes sample decimal-format observations for model input.
